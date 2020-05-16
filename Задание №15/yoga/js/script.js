@@ -218,5 +218,14 @@
     });
 
 
-      
+    // Calc
+    
+    let persons = document.querySelectorAll('.counter-block-input')[0],
+        restDays = document.querySelectorAll('.counter-block-input')[1],
+        place = document.getElementById('select'),
+        totalValue = document.getElementById('total');
+
+
+    console.log(totalValue);
+
  }); 
